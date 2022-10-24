@@ -102,7 +102,7 @@
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>nexus</id>
+	      <id>insta</id>
 	      <name>Snapshot Nexus Repository </name>
 	      <url>http://15.206.92.234:8081/repository/insta-snapshot/</url>
 	    </snapshotRepository>
