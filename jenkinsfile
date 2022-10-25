@@ -1,0 +1,19 @@
+pipeline{
+    agent any
+       tools{
+           maven "maven3.8.6"
+       }
+       
+      stages{
+          stage('CheckOutCode'){
+              steps{
+                  git branch: 'development', credentialsId: 'a520bd43-b2f8-48fa-998f-305bc935c635', url: 'https://github.com/dileepk10/pro1.git'
+              }
+          }
+          stage('Build'){
+              steps{
+                  sh 'mvn clean package'
+              }
+          }
+}
+}
