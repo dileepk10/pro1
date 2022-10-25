@@ -15,5 +15,15 @@ pipeline{
                   sh 'mvn clean package'
               }
           }
+          stage('SonarQubeReport'){
+              steps{
+                  sh 'mvn clean sonar:sonar'
+              }
+          }
+          stage('UploadIntoNexus'){
+              steps{
+                  sh 'mvn clean deploy'
+              }
+          }
 }
 }
