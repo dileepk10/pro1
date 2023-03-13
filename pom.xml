@@ -96,13 +96,13 @@
 	<distributionManagement>
 	
 	    <repository>
-	      <id>nexus</id>
+	      <id>insta</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
 	      <url>http://15.206.145.202:8081/repository/insta-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>nexus</id>
+	      <id>insta</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
 	      <url>http://15.206.145.202:8081/repository/insta-snapshot/</url>
 	    </snapshotRepository>
