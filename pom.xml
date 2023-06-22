@@ -96,15 +96,15 @@
 	<distributionManagement>
 	
 	    <repository>
-	      <id>insta</id>
+	      <id>wallmart</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://15.206.145.202:8081/repository/insta-release/</url>
+	      <url>http://43.204.140.64:8081/repository/wallmart-release//</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>insta</id>
+	      <id>wallmart</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://15.206.145.202:8081/repository/insta-snapshot/</url>
+	      <url>http://43.204.140.64:8081/repository/wallmart-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
