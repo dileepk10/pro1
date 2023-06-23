@@ -21,8 +21,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://52.66.208.30:9000/</sonar.host.url>
-                <sonar.login>8eca5c54b127535ccc09f97e50e114d02f445a36</sonar.login>
+		<sonar.host.url>http://13.233.91.57:9000/</sonar.host.url>
+                <sonar.login>194e533a7ace713bcffc3e720619a9943151ca58</sonar.login>
 	
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -96,15 +96,15 @@
 	<distributionManagement>
 	
 	    <repository>
-	      <id>insta</id>
+	      <id>wallmart</id>
 	      <name>Releases Nexus Repository</name>
-	      <url>http://3.110.216.228:8081/repository/insta-release/</url>
+	      <url>http://13.235.49.147:8081/repository/wallmart-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>insta</id>
+	      <id>wallmart</id>
 	      <name>Snapshot Nexus Repository </name>
-	      <url>http://3.110.216.228:8081/repository/insta-snapshot/</url>
+	      <url>http://13.235.49.147:8081/repository/wallmart-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
